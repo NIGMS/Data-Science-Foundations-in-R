@@ -1,0 +1,119 @@
+<div class="quiz6-container">
+   <style>
+       .quiz6-container {
+           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+           max-width: 800px;
+           margin: 0 auto;
+           padding: 20px;
+       }
+       .quiz6-header {
+           background-color: #4a6495;
+           color: white;
+           padding: 15px 20px;
+           font-size: 1.2em;
+           border-radius: 8px 8px 0 0;
+       }
+       .quiz6-content {
+           background-color: white;
+           padding: 20px;
+           border: 1px solid #dee2e6;
+           border-radius: 0 0 8px 8px;
+       }
+       .quiz6-option {
+           background-color: #f8f9fa;
+           border: 1px solid #dee2e6;
+           border-radius: 8px;
+           padding: 15px;
+           margin: 10px 0;
+           cursor: pointer;
+           display: flex;
+           align-items: center;
+       }
+       .quiz6-option:hover {
+           background-color: #e9ecef;
+       }
+       .quiz6-checkbox {
+           margin-right: 10px;
+       }
+       .quiz6-feedback {
+           margin-top: 10px;
+           padding: 10px;
+           border-radius: 5px;
+           display: none;
+       }
+       .quiz6-correct {
+           background-color: #d4edda;
+           color: #155724;
+       }
+       .quiz6-incorrect {
+           background-color: #f8d7da;
+           color: #721c24;
+       }
+       .quiz6-submit {
+           background-color: #4a6495;
+           color: white;
+           border: none;
+           padding: 10px 20px;
+           border-radius: 4px;
+           cursor: pointer;
+           margin-top: 10px;
+       }
+       .quiz6-submit:hover {
+           background-color: #3a5075;
+       }
+   </style>
+   <div class="quiz6-header">
+       Which terms in the four-way ANOVA validate our prior tests on tissue and synthesis type specificity?
+   </div>
+   <div class="quiz6-content">
+       <div class="quiz6-option">
+           <input type="checkbox" id="opt1" class="quiz6-checkbox" value="treatment:synthesis">
+           <label for="opt1">treatment:synthesis (p=6.80e-02)</label>
+       </div>
+       <div class="quiz6-option">
+           <input type="checkbox" id="opt2" class="quiz6-checkbox" value="treatment:tissue">
+           <label for="opt2">treatment:tissue (p=7.29e-01)</label>
+       </div>
+       <div class="quiz6-option">
+           <input type="checkbox" id="opt3" class="quiz6-checkbox" value="treatment:age_factor:synthesis">
+           <label for="opt3">treatment:age_factor:synthesis (p=1.80e-02)</label>
+       </div>
+       <div class="quiz6-option">
+           <input type="checkbox" id="opt4" class="quiz6-checkbox" value="treatment:age_factor:tissue">
+           <label for="opt4">treatment:age_factor:tissue (p=3.82e-08)</label>
+       </div>
+       <div class="quiz6-option">
+           <input type="checkbox" id="opt5" class="quiz6-checkbox" value="treatment:synthesis:tissue">
+           <label for="opt5">treatment:synthesis:tissue (p=4.30e-02)</label>
+       </div>
+       <div class="quiz6-option">
+           <input type="checkbox" id="opt6" class="quiz6-checkbox" value="treatment:age_factor:synthesis:tissue">
+           <label for="opt6">treatment:age_factor:synthesis:tissue (p=3.80e-01)</label>
+       </div>
+       <button class="quiz6-submit" onclick="checkAnswer6()">Submit</button>
+       <div id="feedback6" class="quiz6-feedback"></div>
+   </div>
+</div>
+
+<script>
+   function checkAnswer6() {
+       const feedback = document.getElementById('feedback6');
+       feedback.style.display = 'block';
+       
+       const correctAnswers = ['treatment:age_factor:synthesis', 'treatment:age_factor:tissue', 'treatment:synthesis:tissue'];
+       const selectedAnswers = Array.from(document.querySelectorAll('.quiz6-checkbox:checked')).map(cb => cb.value);
+       
+       // Check if arrays have same elements (regardless of order)
+       const isCorrect = correctAnswers.length === selectedAnswers.length &&
+                        correctAnswers.every(item => selectedAnswers.includes(item)) &&
+                        selectedAnswers.every(item => correctAnswers.includes(item));
+       
+       if (isCorrect) {
+           feedback.className = 'quiz6-feedback quiz6-correct';
+           feedback.textContent = 'Correct! The significant three-way interactions confirm our previous findings: treatment:age_factor:synthesis (p=0.018) confirms synthesis-specific effects vary with age, treatment:age_factor:tissue (p=3.82e-08) confirms tissue-specific effects vary with age, and treatment:synthesis:tissue (p=0.043) shows these effects differ between tissues and synthesis types.';
+       } else {
+           feedback.className = 'quiz6-feedback quiz6-incorrect';
+           feedback.textContent = 'Incorrect. Look for significant three-way interactions that involve treatment along with either synthesis/tissue and age_factor, or both synthesis and tissue. The two-way interactions alone don\'t tell the full story, and the four-way interaction isn\'t significant.';
+       }
+   }
+</script>

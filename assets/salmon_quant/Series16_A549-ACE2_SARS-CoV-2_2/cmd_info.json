@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.10.3",
+    "index": "salmon/salmon_index",
+    "libType": "SR",
+    "threads": "31",
+    "validateMappings": [],
+    "output": "salmon_quant/Series16_A549-ACE2_SARS-CoV-2_2",
+    "unmatedReads": "trimmed_reads/Series16_A549-ACE2_SARS-CoV-2_2.trimmed.fastq.gz",
+    "auxDir": "aux_info"
+}
