@@ -34,9 +34,8 @@
 
    - Click "Browse" to locate the script
 
-   - Navigate to "nosi-duke"
+   - Paste to "gs://nigms-sandbox/nosi-duke/post_start_clean_032225.sh"
 
-   - Select the "post_start_clean_032225.sh" script from the available files
 
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXekFnjgdo8elVtvYBgHh57ca6uKLJjBhtBgDVKTX7kUdWzIYnEAu-2xwxB4i1X2_70rMIUREwaZ310QlAUCL12F3hrahpF1atsQfU3SkMQaTKh-q3N6SsxeBrEIQtoGBdPS9inC?key=dKp5FwnnbucCvNhB4NAX4_8B" alt="img" style="zoom:50%;" />
 
