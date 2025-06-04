@@ -38,6 +38,7 @@ https://github.com/mitomac/duke_nigms_sandbox.git
 2. Open the project in Jupyter Notebook.
    ```
 3. Explore the Jupyter notebooks in the `notebooks` folder to follow along with each module. These notebooks leverage Google Cloud Platform (GCP) for cloud-based computation, ensuring scalability and accessibility for users.
+   - `module0.ipynb`: Gen AI integration setup
    - `module1.ipynb`: Introduction to R
    - `module2.ipynb`: Introduction to ggplot2
    - `module3.ipynb`: Introduction to dplyr

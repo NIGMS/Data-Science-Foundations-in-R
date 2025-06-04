@@ -87,14 +87,11 @@
 
    <img src="assets/img/image-20250127202922005.png" alt="image-20250127202922005" style="zoom:50%;" />
 
-   
+2. Generate and copy API key by running through [Module 0](./module0.ipynb) notebook.
 
-2. Select a google gemini model
+3. Select a google gemini model and input the API key you just generated.
 
    <img src="assets/img/image-20250127202818547.png" alt="image-20250127202818547" style="zoom: 50%;" />
-
-
-3. See internal slack for API key
 
 
 Additional Tips:
