@@ -11,6 +11,14 @@
 - [Data](#data)
 - [Funding](#funding)
 - [License for Data](#license-for-data)
+## Video Overview
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=7XHhE6WxX60&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=51">
+            <img src="images/duke_video1.png" alt="Overview", width="400"/>
+        </a>
+    <br>
+    <span> <b>Click above image to watch overview video</b> </span>
+</p>
 
 ## **Overview**
 
