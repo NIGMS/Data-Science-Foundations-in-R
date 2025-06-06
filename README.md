@@ -1,5 +1,10 @@
 # Introduction to R and Data Science
 
+<p align="center">
+    <img src="images/duke-anchor-graphic.png" width="400" />
+</p>
+
+
 ## **Contents**
 
 - [Overview](#overview)
@@ -11,6 +16,14 @@
 - [Data](#data)
 - [Funding](#funding)
 - [License for Data](#license-for-data)
+## Video Overview
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=7XHhE6WxX60&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=51">
+            <img src="images/duke_video1.png" alt="Overview", width="400"/>
+        </a>
+    <br>
+    <span> <b>Click above image to watch overview video</b> </span>
+</p>
 
 ## **Overview**
 
@@ -38,6 +51,7 @@ https://github.com/mitomac/duke_nigms_sandbox.git
 2. Open the project in Jupyter Notebook.
    ```
 3. Explore the Jupyter notebooks in the `notebooks` folder to follow along with each module. These notebooks leverage Google Cloud Platform (GCP) for cloud-based computation, ensuring scalability and accessibility for users.
+   - `module0.ipynb`: Gen AI integration setup
    - `module1.ipynb`: Introduction to R
    - `module2.ipynb`: Introduction to ggplot2
    - `module3.ipynb`: Introduction to dplyr
@@ -67,6 +81,8 @@ This module is organized into five core notebooks, each targeting a specific lea
 - **Module 7**: Provides an analysis of RNAseq data using DESeq2, including differential expression analysis and visualization techniques.
 
 Each notebook contains example datasets and guided exercises to reinforce concepts.
+
+![Module Anchor](images/Architecture_Diagram.png)
 
 ## **Data**
 

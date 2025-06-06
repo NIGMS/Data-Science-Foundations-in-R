@@ -34,9 +34,8 @@
 
    - Click "Browse" to locate the script
 
-   - Navigate to "nosi-duke"
+   - Paste to "gs://nigms-sandbox/nosi-duke/post_start_clean_032225.sh"
 
-   - Select the "post_start_clean_032225.sh" script from the available files
 
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXekFnjgdo8elVtvYBgHh57ca6uKLJjBhtBgDVKTX7kUdWzIYnEAu-2xwxB4i1X2_70rMIUREwaZ310QlAUCL12F3hrahpF1atsQfU3SkMQaTKh-q3N6SsxeBrEIQtoGBdPS9inC?key=dKp5FwnnbucCvNhB4NAX4_8B" alt="img" style="zoom:50%;" />
 
@@ -88,14 +87,11 @@
 
    <img src="assets/img/image-20250127202922005.png" alt="image-20250127202922005" style="zoom:50%;" />
 
-   
+2. Generate and copy API key by running through [Module 0](./module0.ipynb) notebook.
 
-2. Select a google gemini model
+3. Select a google gemini model and input the API key you just generated.
 
    <img src="assets/img/image-20250127202818547.png" alt="image-20250127202818547" style="zoom: 50%;" />
-
-
-3. See internal slack for API key
 
 
 Additional Tips:
