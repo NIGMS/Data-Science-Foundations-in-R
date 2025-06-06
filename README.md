@@ -33,6 +33,7 @@ This repository contains materials for an introductory data science module, part
 - Tidyverse essentials, including data filtering with `dplyr`, data cleaning with `tidyr` and visualization with `ggplot2`.
 - Fundamentals of statistical methods such as ANOVA and Linear Regression (LR).
 - A primer on RNAseq data analysis.
+- Introduction to [AI assistant within Jupyter](https://github.com/NIGMS/Data-Science-Foundations-in-R/blob/main/data_science_module_setup.md#ai-assistant)
 
 ## **Background**
 
@@ -40,7 +41,7 @@ Data science is a multidisciplinary field that uses statistical and computationa
 
 ## **Before Starting**
 
-See instructions from Deloitte on spinning up cloud instances.
+See instructions in our [set up submodule](https://github.com/NIGMS/Data-Science-Foundations-in-R/blob/main/data_science_module_setup.md) to configure your environment. 
 
 ## **Getting Started**
 
