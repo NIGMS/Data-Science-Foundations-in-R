@@ -1,5 +1,10 @@
 # Introduction to R and Data Science
 
+<p align="center">
+    <img src="images/duke-anchor-graphic.png" width="400" />
+</p>
+
+
 ## **Contents**
 
 - [Overview](#overview)
