@@ -77,6 +77,8 @@ This module is organized into five core notebooks, each targeting a specific lea
 
 Each notebook contains example datasets and guided exercises to reinforce concepts.
 
+![Module Anchor](images/Architecture_Diagram.png)
+
 ## **Data**
 
 The datasets used in this module are included within the repository in the `data/` folder. These include:
